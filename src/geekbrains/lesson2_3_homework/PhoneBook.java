@@ -15,7 +15,6 @@ public class PhoneBook {
     public ArrayList<String> get(String name) {
         return phoneBook.get(name);
     }
-
     public void info() {
         System.out.println(phoneBook);
     }
