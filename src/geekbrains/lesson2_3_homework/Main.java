@@ -9,6 +9,7 @@ public class Main {
         List<String> words = Arrays.asList("Mikrotik","TP-link","TP-link","Ubiquiti","D-Link","LogicPower","D-Link",
                 "Cisco","ZTE","D-Link","Dahua","Cisco","Eltex","Eltex","Cisco","Hanlong","Hikvision","Huawei","Huawei",
                 "ZyXEL");
+
         Set<String> unique = new HashSet <> (words);
 
         System.out.println("Оригинальный Набор слов:");
